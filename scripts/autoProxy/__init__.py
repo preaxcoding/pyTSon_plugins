@@ -137,4 +137,4 @@ class autoProxy(ts3plugin):
         resolved = reply.readAll().data().decode('utf-8').strip()
         ts3lib.printMessageToCurrentTab("[color=green]Resolved server nickname %s to %s" % (self.backup["address"], resolved))
         resolved = resolved.split(":")
-        self.proxy(resolved[0], resolved[1] if len(resolved) > 1 else 9987)
+        self.proxy(resolved[0], resolved[1] if len(resolved) > 1 else 9987) 
